@@ -4,13 +4,21 @@
   "private": true,
   "main": "main.js",
   "dependencies": {
+    "antd": "^3.8.1",
     "electron": "^2.0.7",
+    "element-react": "^1.4.20",
+    "element-theme-default": "^1.4.13",
+    "koa": "^2.5.2",
+    "lodash": "^4.17.10",
+    "querystring": "^0.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "^1.1.4"
+    "react-json-pretty": "^1.7.9",
+    "react-scripts": "^1.1.4",
+    "socket.io-client": "^2.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start && npm run electron-star",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
